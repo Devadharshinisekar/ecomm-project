@@ -1,0 +1,18 @@
+.sign-up, .login{
+  text-align: left;
+}
+.sign-up h1, .login h1{
+  margin-top: 50px;
+  margin-bottom: 80px;
+  color: rgb(54, 124, 151);
+}
+.auth-toggle-link{
+  color: rgb(54, 124, 151);
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: left;
+}
+.seller-auth a{
+  color: rgb(60, 138, 158);
+  cursor: pointer;
+}

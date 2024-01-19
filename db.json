@@ -1,0 +1,171 @@
+{
+  "seller": [
+    {
+      "name": "anil sidhu",
+      "email": "anil@seller.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "deva",
+      "password": "deva",
+      "email": "deva@test.com",
+      "id": 1
+    },
+    {
+      "name": "sam",
+      "password": "123",
+      "email": "sam@test.com",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "name": "Dinning table",
+      "price": "8000",
+      "category": "Wooden",
+      "color": "white",
+      "description": "good quality Dinning table",
+      "image": "https://images.pexels.com/photos/2995012/pexels-photo-2995012.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": 1
+    },
+    {
+      "name": "Sofa-2 seat",
+      "price": "26000",
+      "category": "Leather",
+      "color": "Orange",
+      "description": "2-seat Orange Leather Sofa Beside Wall\n",
+      "image": "https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "id": 2
+    },
+    {
+      "name": "chair",
+      "price": "6000",
+      "category": "Leather & wooden",
+      "color": "Gray",
+      "description": " Good quality cahir\n",
+      "image": "https://images.pexels.com/photos/923192/pexels-photo-923192.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": 3
+    },
+    {
+      "name": "Bed",
+      "price": "15000",
+      "category": " Classic Bed",
+      "color": "Gray",
+      "description": " Good quality Bed\n",
+      "image": "https://images.pexels.com/photos/1034584/pexels-photo-1034584.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "id": 4
+    },
+    {
+      "name": "White Couch on Wooden Floor",
+      "price": "4000",
+      "category": "Wooden",
+      "color": "White",
+      "description": "White Couch on Wooden Floor",
+      "image": "https://images.pexels.com/photos/4352247/pexels-photo-4352247.jpeg",
+      "id": 5
+    },
+    {
+      "name": "Dinning table",
+      "price": "2000",
+      "category": "Wooden",
+      "color": "Gray & Brown",
+      "description": "Beautiful & Quality Product",
+      "image": "https://images.pexels.com/photos/4846455/pexels-photo-4846455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "id": 7
+    },
+    {
+      "name": "Sofa ",
+      "price": "20000",
+      "category": "classic Sofa",
+      "color": "White & Brown",
+      "description": "White and Brown Sofa Chair Near White Window Curtain",
+      "image": "https://images.pexels.com/photos/6480707/pexels-photo-6480707.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "id": 8
+    },
+    {
+      "name": "chair",
+      "price": "800",
+      "category": "Metal",
+      "color": "black ",
+      "description": "Medal Chair",
+      "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80",
+      "id": 9
+    },
+    {
+      "name": "Window",
+      "price": "1500",
+      "category": "Window set",
+      "color": "Brown",
+      "description": "Glass Window\n\n",
+      "image": "https://images.pexels.com/photos/1906795/pexels-photo-1906795.jpeg",
+      "id": 10
+    }
+  ],
+  "users": [
+    {
+      "name": "pugazh",
+      "email": "pugazh@user.com",
+      "password": "pugazh",
+      "id": 1
+    },
+    {
+      "name": "deva S",
+      "email": "deva@gmail.com",
+      "password": "deva",
+      "id": 2
+    }
+  ],
+  "cart": [
+    {
+      "name": "Dinning table",
+      "price": "8000",
+      "category": "Wooden",
+      "color": "white",
+      "description": "good quality Dinning table",
+      "image": "https://images.pexels.com/photos/2995012/pexels-photo-2995012.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "quantity": 1,
+      "productId": 1,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "name": "Sofa-2 seat",
+      "price": "26000",
+      "category": "Leather",
+      "color": "Orange",
+      "description": "2-seat Orange Leather Sofa Beside Wall\n",
+      "image": "https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "productId": 2,
+      "userId": 1,
+      "id": 2
+    }
+  ],
+  "orders": [
+    {
+      "email": "pugazh@user.com",
+      "address": "villupuram",
+      "contact": "9999",
+      "totalPrice": 34100,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "email": "pugazh@user.com",
+      "address": "villupuram",
+      "contact": "9999",
+      "totalPrice": 26100,
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "email": "deva@gmail.com",
+      "address": "Villupuram",
+      "contact": "987654321",
+      "totalPrice": 82100,
+      "userId": 2,
+      "id": 3
+    }
+  ]
+}

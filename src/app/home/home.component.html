@@ -1,0 +1,167 @@
+
+<!-- <ngb-carousel *ngIf="popularProducts">
+  <ng-template *ngFor="let item of popularProducts" ngbSlide>
+    <div class="picsum-img-wrapper">
+      <a routerLink="/details/{{item.id}}"> <img class="product-header-image" src="{{item.image}}" alt="Random first slide">
+    </a>
+      </div>
+      <div class="carousel-caption">
+          <h3>{{item.name}}</h3>
+          <p>{{item.description}}</p>
+      </div>
+  </ng-template>
+</ngb-carousel> -->
+ &nbsp;<div class="banner">
+  <div class="content">
+  <h1 class="mb-2"> GOOD QUALITY AND<br/> TRENDY FURNITURE.</h1>
+  </div>
+  </div>
+<!--<div class="product-list-wrapper">
+  <h1 style=" background-color: rgb(25, 66, 78);
+  color: white;font-family: 'Courier New', Courier, monospace;">Trendy Furnitures</h1>
+  <div class="row">
+    <div class="col-lg-3 mt-3" *ngFor="let item of trendyProducts">
+      <div class="product-item">
+        <img src="{{ item.image }}" alt="" class="product-image">
+        <div class="product-details">
+          <h6 class="name-head" style="color: black;">Name: {{ item.name }}</h6>
+          <div class="product-price">
+            <h6 class="original-price" style="color: rgb(250, 12, 12);">Original Price: {{ item.price | currency: 'INR' }}</h6>
+            <h6 class="sale-price" style="color: black;">Discounted Price: {{ (item.price - item.discount) | currency: 'INR' }}</h6>
+          </div>
+          <div class="product-color">
+            <h6 style="color: black;font-style: bold;">Color: {{ item.color }}</h6>
+          </div>
+        </div>
+        <div class="product-footer">
+          <p><a routerLink="/details/{{ item.id }}"> View Details</a></p>
+           <p><a href="">Add to Cart</a></p>
+        </div>
+        <div class="discount-badge"></div>
+
+    </div>
+  </div>
+</div> -->
+<!-- <ngb-carousel>
+  <ng-template ngbSlide *ngFor="let item of randomImages">
+    <div class="picsum-img-wrapper">
+      <a routerLink="/details/{{item.id}}">
+        <img class="product-header-image" [src]="item.image" alt="Random slide">
+      </a>
+    </div>
+    <div class="carousel-caption">
+      <h3>{{item.name}}</h3>
+      <p>{{item.description}}</p>
+    </div>
+  </ng-template>
+</ngb-carousel> -->
+<div class="countdown-timer" style="color: red;font-family: 'Courier New', Courier, monospace; text-align:center;">
+  <h4>Countdown Timer:</h4>
+  <div class="timer">{{ getFormattedTime() }}</div>
+</div>
+<!-- <div class="banner">
+  <div  style="background-color: transparent;" class="discounted-product">
+    <h2 class="text-center">Special Discount!</h2>
+    <div class="product-details">
+      <div class="product-item">
+        <div class="product-image">
+          <img src="https://www.beyoung.in/api/cache/catalog/products/printed_t_shirts_combo_update_images_16_5_2022/pack_of_3_inspiring_printed_combo_t-shirts_base_400x533.jpg" alt="Product 1 Image">
+        </div>
+        <div class="product-info">
+          <h5>Pack of 3 - Inspiring Printed Combo T-shirts</h5>
+          <p>100% Bio-washed Cotton – makes the fabric extra soft & silky</p>
+          <div class="discount-badge">25% off</div>
+          <p class="product-price" style="color: #ff0000;">Price: &#8377;1,999</p>
+        </div>
+      </div>
+      <div class="product-item">
+        <div class="product-image">
+          <img src="https://www.beyoung.in/api/cache/catalog/products/shirt_squre_image_update_14_3_2022/pack_of_2_grey_and_army_green_shirts_combo_feed_3_2_2023_700x933.jpg" alt="Product 2 Image">
+        </div>
+        <div class="product-info">
+          <h5>Pack of 2 - Grey and Army Green Shirts Combo</h5>
+          <p>Constructed with World’s Finest Carbon Cotton</p>
+          <div class="discount-badge">25% off</div>
+          <p class="product-price" style="color: #ff0000;">Price: &#8377;999</p>
+        </div>
+      </div>-->
+      <!--Add more product items as needed -->
+      <!-- <div class="product-item">
+        <div class="product-image">
+          <img src="https://www.beyoung.in/api/cache/catalog/products/polo_combo_images_new_update/pack_of_3_polo_t-shirts_combo_lush_green_ice_blue_french_wine_base_14_04_2023_700x933.jpg" alt="Product 3 Image">
+        </div>
+        <div class="product-info">
+          <h5>Pack of 3 Polo T-shirts Combo Lush Green, Ice Blue, French Wine</h5>
+          <p>Imported 100% Pique Cotton - allows air to flow effortlessly and lets your skin breathe</p>
+          <div class="discount-badge">25% off</div>
+          <p class="product-price" style="color: #ff0000;">Price: &#8377;1599</p>
+        </div>
+      </div>
+      <div class="product-item">
+        <div class="product-image">
+          <img src="https://www.beyoung.in/api/cache/catalog/products/full_sleeves_new_update_images/pack_of_3_plain_full_sleeve_t-shirt_combo_navy_blue_white_space_grey_base_17_1_2023_700x933.jpg" alt="Product 4 Image">
+        </div>
+        <div class="product-info">
+          <h5>Pack of - 3 Plain Full Sleeve T-shirt Combo Navy Blue,White,Space Grey</h5>
+          <p>Made with super-lightweight 100% Cotton</p>
+          <div class="discount-badge">50% off</div>
+          <p class="product-price" style="color: #ff0000;">Price: &#8377;1159</p>
+        </div>
+      </div>
+      <div class="product-item">
+        <div class="product-image">
+          <img src="https://www.beyoung.in/api/cache/catalog/products/pick_any_3_pyjama_for_men_update/pick_any_2_plain_mens_pyjama_combo_base_29_9_2022_700x933.jpg" alt="Product 5 Image">
+        </div>
+        <div class="product-info">
+          <h5>Pack of 2 - Plain Mens Pyjama Combo</h5>
+          <p>Made with deluxe Cotton – provides a soft feel everytime</p>
+          <div class="discount-badge">50% off</div>
+          <p class="product-price" style="color: #ff0000;">Price: &#8377;1499</p>
+        </div>
+      </div>
+    </div>
+    <div class="btn-center">
+      <a href="#" class="btn">Shop Now</a>
+    </div>
+  </div>
+</div> -->
+<div class="product-list-wrapper">
+  <h1 style="background-color: rgb(25, 66, 78); font-family: 'Courier New', Courier, monospace; color: white;">Trendy Furnitures</h1>
+  <div class="row">
+    <div class="col-lg-3 mt-3" *ngFor="let item of trendyProducts">
+      <div class="product-item">
+        <img src="{{ item.image }}" alt="" class="product-image">
+        <div class="product-details">
+          <h6 class="name-head" style="color: black;">Name: {{ item.name }}</h6>
+          <div class="product-price">
+            <h6 class="original-price" style="color: rgb(250, 12, 12);">Original Price: {{ item.price | currency: 'INR' }}</h6>
+            <h6 class="sale-price" style="color: black;">Discounted Price: {{ (item.price - (item.price * 0.1)) | currency: 'INR' }}</h6>
+          </div>
+          <div class="product-color">
+            <h6 style="color: black;">Color: {{ item.color }}</h6>
+          </div>
+          <div class="rating-stars">
+            <!-- Add your rating star HTML code here -->
+            <div class="rating-stars">
+              <span class="star-filled" *ngIf="isFrequentProduct(item)"></span>
+              <span class="star-filled" *ngIf="isFrequentProduct(item)"></span>
+              <span class="star-filled" *ngIf="isFrequentProduct(item)"></span>
+              <span class="star-filled" *ngIf="isFrequentProduct(item)"></span>
+              <span class="star-filled" *ngIf="isFrequentProduct(item)"></span>
+            </div>
+            <div class="rating-stars">
+              <span class="star-filled" *ngIf="!isFrequentProduct(item)"></span>
+              <span class="star-filled" *ngIf="!isFrequentProduct(item)"></span>
+            </div>
+          </div>
+        </div>
+        <div class="product-footer">
+          <p><a routerLink="/details/{{ item.id }}" style="color: blue;">View Details</a></p>
+          <p *ngIf="item.reviewName && item.rating">{{ item.reviewName }}: {{ item.rating }}</p>
+
+        </div>
+        <div class="discount-badge">Sale - 10%</div>
+      </div>
+    </div>
+  </div>
+</div>

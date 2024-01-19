@@ -1,0 +1,14 @@
+.user-auth h1{
+  margin-top: 50px;
+  margin-bottom: 80px;
+  color: rgb(54, 124, 151);
+  text-align: left;
+}
+
+.user-auth {
+  margin-bottom: 100px;
+}
+.user-auth a{
+  color: rgb(60, 138, 158);
+  cursor: pointer;
+}

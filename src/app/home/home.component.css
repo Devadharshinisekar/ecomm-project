@@ -1,0 +1,151 @@
+.product-header-image{
+  object-fit: contain;
+  width: 100%;
+  height: 600px;
+}
+.banner
+{
+
+  background-image: url('https://www.matrix-furniture.com/images/slider-img2.jpg');
+  height: 600px;
+  width: 100%;
+  background-position: center top;
+  background-size: contain;
+}
+.product-item .discount-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: red;
+  color: black;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.product-item .discount-badge:before {
+  content: "Sale -";
+}
+
+.product-item .original-price {
+  text-decoration: line-through;
+  color: #888;
+  margin-bottom: 5px;
+}
+.product-item .sale-price {
+  font-weight: bold;
+  color: red;
+}
+.content
+{
+  top:40%;
+  left:65%;
+  position: absolute;
+}
+.content h1
+{
+  color: #0c0c0c;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+.product-item{
+  margin-bottom: 40px;
+  border: 1px solid #ccc;
+}
+.product-list-wrapper h1{
+  color: black;
+}
+.product-item img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.product-item .product-details {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 15px;
+}
+
+.product-item .name-head{
+  font-size: 20px;
+  font-weight: 600;
+}
+.product-item h6{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.product-item .product-footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+
+}
+.product-footer a{
+  justify-content: space-between;
+}
+.rating-stars {
+  color: white;
+}
+
+.rating-stars .star-filled {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(25, 66, 78);
+  border: 1px solid white;
+}
+
+.rating-stars .star-filled::before {
+  content: "\2605"; /* Unicode for filled star symbol */
+  color: gold;
+}
+
+.rating-stars .star::before {
+  content: "\2606"; /* Unicode for empty star symbol */
+  color: black;
+}
+
+@keyframes glitter {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes paperShower {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.countdown-timer .expired {
+  animation: alternateAnimation 1s infinite;
+}
+
+@keyframes alternateAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

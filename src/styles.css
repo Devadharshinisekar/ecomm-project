@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  height: cover;
+  background-color: #13a3cf2f;
+}
+html, body { height: 100%; }
+.container {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.common-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+.form-input {
+  height: 35px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(23, 247, 60);
+  padding-left: 15px;
+  color:black;
+}
+.form-button {
+  height: 35px;
+  border: 1px solid rgb(6, 156, 31);
+  color:rgb(10, 160, 35);
+  cursor: pointer;
+}
+.error-p{
+  color: red;
+}
+
+.message-p{
+  color: rgb(22, 240, 51);
+  text-align: center;
+}
+
+.carousel-caption {
+  background-color: #0000007d;
+  border-radius: 10px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  background-color: black;
+  border-radius: 5px;
+}
+
+.invalid-input{
+  color: red;
+  font-size: 12px;
+  margin-top:-20px
+}
+button:disabled{
+  cursor: not-allowed;
+}
+.max-width{
+  width: 100%;
+}
